@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sanjay V - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #f0f4fa;
+        }
+
+        header {
+            background-color: #1e3d59;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 2rem;
+            background-color: white;
+            margin: 1rem;
+            border-radius: 10px;
+        }
+
+        .download-button {
+            background-color: #1e3d59;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./profile.jpg" alt="Profile Picture" class="profile-picture">
+        <h1>Sanjay V</h1>
+        <p>Web Developer & Tech Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer focused on creating clean, user-friendly, and efficient web experiences.</p>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p>Bharathiar University</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js, MERN</li>
+            <li>Python, Java</li>
+            <li>Machine Learning, AI</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>E-commerce Website</li>
+            <li>Chatbot</li>
+            <li>College Portal</li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section" style="text-align: center;">
+        <h2>Resume</h2>
+        <a href="./my_resume.pdf" class="download-button" download>Download Resume</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sanjay V</p>
+    </footer>
+
+</body>
+</html>
